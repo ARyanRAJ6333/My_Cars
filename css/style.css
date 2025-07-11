@@ -4,9 +4,10 @@
         max-width: 100%;
         margin-top: -98px;
         margin-left: 42px;
+        
     }
 
-.wheelr{
+    .wheelr{
         position: absolute;
         max-width: 100%;
         margin-top: -96px;
@@ -16,21 +17,21 @@
 
 
 
-.ani{
-    animation-name: dfgdf;
-    animation-timing-function: linear;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-   }
-   @keyframes dfgdf{
-    from{
-        margin-left:0px;    
+    .ani{
+        animation-name: dfgdf;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
     }
-    to{
-        margin-left:800px;    
+    @keyframes dfgdf{
+        from{
+            margin-left:0px;    
+        }
+        to{
+            margin-left:800px;    
 
+        }
     }
-   }
 
 
 
@@ -50,10 +51,10 @@
    }
    @keyframes carTy{
     from{
-        margin-left:0px;    
+        margin-left:-800px;    
     }
     to{
-        margin-left:800px;    
+        margin-left:1600px;    
 
     }
    }
