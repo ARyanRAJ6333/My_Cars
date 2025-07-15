@@ -7,17 +7,7 @@
         
     }
 
-    .wheelr{
-        position: absolute;
-        max-width: 100%;
-        margin-top: -96px;
-        margin-left: 258px;
-    }
-
-
-
-
-    .ani{
+    .anif{
         animation-name: dfgdf;
         animation-timing-function: linear;
         animation-duration: 2s;
@@ -25,15 +15,61 @@
     }
     @keyframes dfgdf{
         from{
-            margin-left:0px;    
+            margin-left:-600px;    
         }
         to{
-            margin-left:800px;    
+            margin-left:1400px;    
 
         }
     }
 
+    .wheelr{
+        position: absolute;
+        max-width: 100%;
+        margin-top: -116px;
+        margin-left: 300px;
+    }
 
+
+    .anir{
+        animation-name: dfgh;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes dfgh{
+        from{
+            margin-left:-600px;    
+        }
+        to{
+            margin-left:1400px;    
+
+        }
+    }
+
+    .wheelb{
+        position: absolute;
+        max-width: 100%;
+        margin-top: -116px;
+        margin-left: 300px;
+    }
+
+
+    .anib{
+        animation-name: dfgh;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes dfgh{
+        from{
+            margin-left:-400px;    
+        }
+        to{
+            margin-left:1200px;    
+
+        }
+    }
 
 
 
@@ -51,10 +87,10 @@
    }
    @keyframes carTy{
     from{
-        margin-left:-800px;    
+        margin-left:-600px;    
     }
     to{
-        margin-left:1600px;    
+        margin-left:1400px;    
 
     }
    }
